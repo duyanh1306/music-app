@@ -16,13 +16,13 @@
         <img id="thumbnail" src="./assets/Cover/Marshmello.png" alt="">
         <img id="play-pause" onclick="playPause()" src="./assets/Icons/icons8-circled-play-64.png" alt="">
 
-        <img id="next-song" src=" ./assets/Icons/icons8-fast-forward-64.png " alt="">
-        <img id="previous-song" src=" ./assets/Icons/icons8-rewind-64.png " alt="">
+        <img id="next-song" onclick="nextSong()" src=" ./assets/Icons/icons8-fast-forward-64.png " alt="">
+        <img id="previous-song" onclick="previousSong()" src=" ./assets/Icons/icons8-rewind-64.png " alt="">
         <div class="song-artist">Marshmello</div>
         <div class="song-title">Alone</div>
-        <input type="range" min="0" max="" name="" value="0" id="progress-bar">
-        <div class="currentTime"></div>
-        <div class="durationTime"></div>
+        <input type="range" min="0" max="" name="" value="0" id="progress-bar" onchange="changeProgressBar()">
+        <div class=" currentTime "></div>
+        <div class="durationTime "></div>
     </div>
     <script src=" index.js ">
     </script>

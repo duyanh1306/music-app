@@ -54,7 +54,7 @@
                             position: absolute;
                             z-index: 4;
                             color: rgb(156, 221, 27);
-                            font-family: 'Monsterrat', sans-serif;
+                            font-family: 'Montserrat', sans-serif;
                             font-weight: bold;
                             font-size: 20px;
                             bottom: 21%;
@@ -65,7 +65,7 @@
                             position: absolute;
                             z-index: 4;
                             color: white;
-                            font-family: 'Monsterrat', sans-serif;
+                            font-family: 'Montserrat', sans-serif;
                             font-size: 17px;
                             bottom: 16%;
                             left: 28%;
@@ -112,7 +112,7 @@
                             bottom: -1%;
                             right: 11%;
                             z-index: 4;
-                            font-family: 'Monsterrat', sans-serif;
+                            font-family: 'Montserrat', sans-serif;
                             font-size: 13px;
                             align-items: center;
                             color: greenyellow;
@@ -154,4 +154,18 @@
                         
                         #progress-bar:focus {
                             outline: none;
+                        }
+                        
+                        .currentTime {
+                            position: absolute;
+                            height: 50px;
+                            width: 50px;
+                            cursor: pointer;
+                            bottom: -7.5%;
+                            left: 17%;
+                            z-index: 4;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 13px;
+                            color: white;
+                            align-items: center;
                         }
