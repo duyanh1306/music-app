@@ -5,10 +5,10 @@ const songArtist = document.getElementsByClassName('song-artist')[0]
 const songTitle = document.getElementsByClassName('song-title')[0]
 const progressBar = document.getElementById('progress-bar')
 const pPause = document.getElementById('play-pause')
-let songs = ['./assets/Songs/Alone - Marshmello.mp3', './assets/Songs/Alone - Alan Walker_ Noonie Bao.mp3']
-let thumbnails = ['./assets/Cover/Marshmello.png ', './assets/Cover/walker-.png']
-let artists = ['Marshmello', 'Alan Walker']
-let titles = ['Alone ', 'Alone']
+let songs = ['./assets/Songs/Alone - Marshmello.mp3', './assets/Songs/Alone - Alan Walker_ Noonie Bao.mp3', './assets/Songs/AlonePtIi-AlanWalkerAvaMax-6363317.mp3']
+let thumbnails = ['./assets/Cover/Marshmello.png ', './assets/Cover/walker-.png', './assets/Cover/walker-.png']
+let artists = ['Marshmello', 'Alan Walker', 'Alan Walker']
+let titles = ['Alone ', 'Alone', 'Alone II']
 let playing = true
 
 function playPause() {
